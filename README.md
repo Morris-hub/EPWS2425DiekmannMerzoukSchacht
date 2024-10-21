@@ -7,9 +7,16 @@
 + Was sind FakeNews -> definition 
 + Welche Zielgruppe -> Jugendliche -> aber warum 
 
-## Zielsetzung
+## Zielsetzung & Spielprinzip
 
 Im Rahmen des Entwicklungsprojektes soll ein interaktives System entwickelt werden, welches Jugendlichen hilft, die Verbreitung von Fake-News besser zu verstehen. Dazu wird ein vertikaler Prototyp entwickelt, welcher die grundlegenden Funktionen des finalen Systems beinhaltet.
+
+Der Spielende wird in unterschiedliche Szenarien gesetzt, welche unterschiedliche Verbreitungsmechanismen von FakeNews darstellt. Ziel ist es, die FakeNews zu verstehen und nachzu vollziehen, wie sich diese verbreitet haben. Zum Ende des Szenarios soll zusammengefasst werden, welche Inhalte die FakeNews sind und wie sich diese verbreiten.
+
+Der Gameloop soll die Folgenden Elemente beinhalten:
++ Inhaltliche Erarbeitung des Szenarios
++ Verstehen der FakeNews-Mechanismen
++ Gegenwirkung durch Auflöung der FakeNews
 
 ## Vorgehen
 

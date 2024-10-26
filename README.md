@@ -2,12 +2,46 @@
 
 ## Problemraum
 
-###hal
+### Was sind Fake News?
 
-+ Warum sind fakenews so ein Problem -> Quelle
-+ Wie verbreiten sich fake news und wie kann man diese bekämpfen -> Quelle
-+ Was sind FakeNews -> definition 
-+ Welche Zielgruppe -> Jugendliche -> aber warum 
+Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „gefälscht“ und „News“ übersetzt „Nachrichten“ zusammen. Zusammengesetzt also gefälschte Nachrichten welche speziell darauf ausgelegt sind wie eine echte Nachricht auszusehen. Oft sind diese politisch Motiviert und dienen dazu für ein Thema möglichst viel öffentliche Aufmerksamkeit zu erzeugen. Diese Aufmerksamkeit wird beispielsweise über reißerische Schlagzeilen, gefälschte Bilder und Behauptungen generiert. 
+
+**Quellen:**
+- https://www.bpb.de/kurz-knapp/lexika/das-junge-politik-lexikon/320271/fake-news/
+- https://www.lpb-bw.de/fake-news#c40355
+
+### Warum sind Fake News ein Problem? 
+
+Fake News stellen einerseits ein ernsthaftes Problem dar, weil sie gezielt falsche Informationen verbreiten, die das Vertrauen der Öffentlichkeit untergraben und ihre Wahrnehmung verzerren können. Durch manipulierte Bilder oder erfundene Behauptungen werden Desinformationen gestreut, die nicht nur das Verständnis der Realität verzerren, sondern auch Schaden in der Gesellschaft anrichten können. 
+
+Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzerrter Informationen gezielt die Aufmerksamkeit auf bestimmte Meinungen oder Narrative lenken. In sozialen Medien erzeugen solche Falschmeldungen oft enormes Interesse und wecken starke Reaktionen, wodurch sie echte Nachrichten und fundierte Artikel in den Hintergrund drängen. So kann die öffentliche Diskussion verzerrt und das Vertrauen in seriöse Berichterstattung geschwächt werden.
+
+**Quellen:** 
+- https://www.pnas.org/doi/epdf/10.1073/pnas.1719005114
+- https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
+- https://dl.acm.org/doi/pdf/10.1145/3137597.3137600?casa_token=4bZhy8CDIi0AAAAA:L4hrDz5KPsa57yqUECWc6vDmW9vsTy_BODulfuKNmwe8OY0B2mMucbgKta_KUIi4-IQlevlWGRx6qw
+
+### Wie verbreiten sich Fake News und wie kann man sie Bekämpfen? 
+
+Fake News verbreiten sich vor allem über digitale Kanäle, in denen sie schnell und einfach ein breites Publikum erreichen können. Soziale Medien wie Facebook, Twitter und Instagram spielen hierbei eine zentrale Rolle: Über Likes, Shares und Kommentare verbreiten sich Falschinformationen oft ungeprüft weiter, vor allem wenn sie emotional aufgeladen sind. Auch Messenger-Dienste wie WhatsApp und Telegramm tragen erheblich zur Verbreitung bei, da Nachrichten hier häufig innerhalb privater Netzwerke und ohne Quellenprüfung weitergeleitet werden. Ein weiterer Verstärkungsfaktor sind die Algorithmen der sozialen Medien, die bevorzugt Inhalte mit hohen Interaktionsraten anzeigen. Da sensationelle oder schockierende Meldungen häufig starke Reaktionen hervorrufen, erreichen sie oft eine größere Reichweite als sachliche Nachrichten. Zudem gibt es spezielle Webseiten und Blogs, die sich auf die Verbreitung falscher oder verzerrter Informationen spezialisiert haben und durch Clickbait-Strategien gezielt Klicks und Aufmerksamkeit generieren. 
+Um die Verbreitung von Fake News einzudämmen, existieren Mehrere Möglichkeiten. Eine langfristig wirksame Strategie ist die Förderung von Medienkompetenz, um Nutzer zu einem kritischen Umgang mit Informationen und einer sorgfältigen Überprüfung von Quellen zu befähigen. Zudem gibt es Fakten-Check-Initiativen, die Falschmeldungen untersuchen und die korrigierten Informationen der Öffentlichkeit zugänglich machen. Bekannte Projekte wie Correctiv, Mimikama oder FactCheck.org bieten dabei aktuelle und fundierte Analysen. Soziale Medienunternehmen sind ebenfalls zunehmend gefordert, die Verbreitung von Fake News zu bekämpfen, indem sie potenziell problematische Inhalte kennzeichnen oder entfernen. Neben freiwilligen Maßnahmen der Plattformen werden auch staatliche Regulierungen diskutiert, die etwa Strafen für die vorsätzliche Verbreitung von Desinformation vorsehen.
+
+**Quellen:**
+- https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
+- https://web.stanford.edu/~gentzkow/research/fakenews.pdf
+- https://journals.sagepub.com/doi/full/10.1177/2056305120942879
+- https://link.springer.com/article/10.3758/s13428-023-02124-2
+
+### Unsere Zielgruppe: 
+
+Unsere Zielgruppe sind Jugendliche, die in besonderem Maße mit Social Media in Kontakt stehen und daher eine der am meisten gefährdeten Gruppen für die Verbreitung von Fake News sind. Jugendliche nutzen Plattformen wie Instagram, TikTok und WhatsApp intensiv und konsumieren Informationen häufig direkt über diese Kanäle, was sie anfälliger für die Verbreitung von Falschinformationen macht. Zudem tragen sie oft unbeabsichtigt zur Verbreitung bei, da sie Inhalte, die sie spannend oder relevant finden, ungeprüft innerhalb ihrer Netzwerke teilen.
+Ein weiterer Grund, warum Jugendliche eine zentrale Zielgruppe darstellen, liegt darin, dass ihre Auseinandersetzung mit Fake News nicht nur unbewusstes Weiterleiten umfasst. Viele Jugendliche teilen Falschinformationen aktiv, diskutieren darüber und setzen sich oft kritisch mit den Inhalten auseinander. Diese Diskussionen bieten eine wertvolle Gelegenheit zur Sensibilisierung und zur Stärkung ihrer Medienkompetenz, um Desinformationen frühzeitig zu erkennen und fundiert bewerten zu können.
+
+**Quellen:**
+- https://journals.sagepub.com/doi/full/10.1177/01634437231198447
+- https://journals.sagepub.com/doi/full/10.1177/2056305120942879
+- https://books.google.de/books?hl=de&lr=&id=LNGNDwAAQBAJ&oi=fnd&pg=PA42&dq=fake+news+and+teenagers&ots=tY9NjG0G7N&sig=bm_UHusgrPS6p1BDT0DZl2hhyNg#v=onepage&q=fake%20news%20and%20teenagers&f=false
+- https://www.scinexx.de/news/psychologie/generation-z-ist-anfaelliger-fuer-fake-news/
 
 ## Zielsetzung & Spielprinzip
 

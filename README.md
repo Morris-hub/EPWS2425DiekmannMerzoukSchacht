@@ -8,9 +8,9 @@ Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „
 
 ### Warum sind Fake News ein Problem? 
 
-Fake News stellen einerseits ein ernsthaftes Problem dar, weil sie gezielt falsche Informationen verbreiten, die das Vertrauen der Öffentlichkeit untergraben und ihre Wahrnehmung verzerren können (). 
+Fake News stellen einerseits ein ernsthaftes Problem dar, weil sie gezielt falsche Informationen verbreiten, die das Vertrauen der Öffentlichkeit untergraben und ihre Wahrnehmung verzerren können. 
 
-Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzerrter Informationen gezielt die Aufmerksamkeit auf bestimmte Meinungen oder Narrative lenken. In sozialen Medien erzeugen solche Falschmeldungen oft enormes Interesse und wecken starke Reaktionen, wodurch sie echte Nachrichten und fundierte Artikel in den Hintergrund drängen. So kann die öffentliche Diskussion verzerrt und das Vertrauen in seriöse Berichterstattung geschwächt werden.
+Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzerrter Informationen gezielt die Aufmerksamkeit auf bestimmte Meinungen oder Narrative lenken. In sozialen Medien erzeugen solche Falschmeldungen oft enormes Interesse und wecken starke Reaktionen, wodurch sie echte Nachrichten und fundierte Artikel in den Hintergrund drängen. So kann die öffentliche Diskussion verzerrt und das Vertrauen in seriöse Berichterstattung geschwächt werden (4.).
 
 **Quellen:** 
 - https://www.pnas.org/doi/epdf/10.1073/pnas.1719005114

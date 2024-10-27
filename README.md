@@ -16,13 +16,7 @@ Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzer
 
 Unsere Zielgruppe sind Jugendliche, die in besonderem Maße mit Social Media in Kontakt stehen und daher eine der am meisten gefährdeten Gruppen für die Verbreitung von Fake News sind. Jugendliche nutzen Plattformen wie Instagram, TikTok und WhatsApp intensiv und konsumieren Informationen häufig direkt über diese Kanäle, was sie anfälliger für die Verbreitung von Falschinformationen macht. Zudem tragen sie oft unbeabsichtigt zur Verbreitung bei, da sie Inhalte, die sie spannend oder relevant finden, ungeprüft innerhalb ihrer Netzwerke teilen (9.).
 
-Ein weiterer Grund, warum Jugendliche eine zentrale Zielgruppe darstellen, liegt darin, dass ihre Auseinandersetzung mit Fake News nicht nur unbewusstes Weiterleiten umfasst. Viele Jugendliche teilen Falschinformationen aktiv, diskutieren darüber und setzen sich oft kritisch mit den Inhalten auseinander. Diese Diskussionen bieten eine wertvolle Gelegenheit zur Sensibilisierung und zur Stärkung ihrer Medienkompetenz, um Desinformationen frühzeitig zu erkennen und fundiert bewerten zu können.
-
-**Quellen:**
-- https://journals.sagepub.com/doi/full/10.1177/01634437231198447
-- https://journals.sagepub.com/doi/full/10.1177/2056305120942879
-- https://books.google.de/books?hl=de&lr=&id=LNGNDwAAQBAJ&oi=fnd&pg=PA42&dq=fake+news+and+teenagers&ots=tY9NjG0G7N&sig=bm_UHusgrPS6p1BDT0DZl2hhyNg#v=onepage&q=fake%20news%20and%20teenagers&f=false
-- https://www.scinexx.de/news/psychologie/generation-z-ist-anfaelliger-fuer-fake-news/
+Ein weiterer Grund, warum Jugendliche eine zentrale Zielgruppe darstellen, liegt darin, dass ihre Auseinandersetzung mit Fake News nicht nur unbewusstes Weiterleiten umfasst. Viele Jugendliche teilen Falschinformationen aktiv, diskutieren darüber und setzen sich oft kritisch mit den Inhalten auseinander (6.). Diese Diskussionen bieten eine wertvolle Gelegenheit zur Sensibilisierung und zur Stärkung ihrer Medienkompetenz, um Desinformationen frühzeitig zu erkennen und fundiert bewerten zu können.
 
 ## Zielsetzung & Spielprinzip
 

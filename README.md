@@ -4,11 +4,7 @@
 
 ### Was sind Fake News?
 
-Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „gefälscht“ und „News“ übersetzt „Nachrichten“ zusammen. Zusammengesetzt also gefälschte Nachrichten welche speziell darauf ausgelegt sind wie eine echte Nachricht auszusehen. Oft sind diese politisch Motiviert und dienen dazu für ein Thema möglichst viel öffentliche Aufmerksamkeit zu erzeugen. Diese Aufmerksamkeit wird beispielsweise über reißerische Schlagzeilen, gefälschte Bilder und Behauptungen generiert. 
-
-**Quellen:**
-- https://www.bpb.de/kurz-knapp/lexika/das-junge-politik-lexikon/320271/fake-news/
-- https://www.lpb-bw.de/fake-news#c40355
+Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „gefälscht“ und „News“ übersetzt „Nachrichten“ zusammen (1.). Zusammengesetzt also gefälschte Nachrichten welche speziell darauf ausgelegt sind wie eine echte Nachricht auszusehen (2.). Oft sind diese politisch Motiviert und dienen einem persönlichen Interesse oder einer kriminellen Absicht (2.). Sie generieren Aufmerksamkeit über reißerische Schlagzeilen, gefälschte Bilder und Behauptungen generiert (1.). 
 
 ### Warum sind Fake News ein Problem? 
 

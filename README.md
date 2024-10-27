@@ -12,11 +12,6 @@ Fake News stellen einerseits ein ernsthaftes Problem dar, weil sie gezielt falsc
 
 Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzerrter Informationen gezielt die Aufmerksamkeit auf bestimmte Meinungen oder Narrative lenken. In sozialen Medien erzeugen solche Falschmeldungen oft enormes Interesse und wecken starke Reaktionen, wodurch sie echte Nachrichten und fundierte Artikel in den Hintergrund drängen. So kann die öffentliche Diskussion verzerrt und das Vertrauen in seriöse Berichterstattung geschwächt werden (4.).
 
-**Quellen:** 
-- https://www.pnas.org/doi/epdf/10.1073/pnas.1719005114
-- https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
-- https://dl.acm.org/doi/pdf/10.1145/3137597.3137600?casa_token=4bZhy8CDIi0AAAAA:L4hrDz5KPsa57yqUECWc6vDmW9vsTy_BODulfuKNmwe8OY0B2mMucbgKta_KUIi4-IQlevlWGRx6qw
-
 ### Unsere Zielgruppe: 
 
 Unsere Zielgruppe sind Jugendliche, die in besonderem Maße mit Social Media in Kontakt stehen und daher eine der am meisten gefährdeten Gruppen für die Verbreitung von Fake News sind. Jugendliche nutzen Plattformen wie Instagram, TikTok und WhatsApp intensiv und konsumieren Informationen häufig direkt über diese Kanäle, was sie anfälliger für die Verbreitung von Falschinformationen macht. Zudem tragen sie oft unbeabsichtigt zur Verbreitung bei, da sie Inhalte, die sie spannend oder relevant finden, ungeprüft innerhalb ihrer Netzwerke teilen.

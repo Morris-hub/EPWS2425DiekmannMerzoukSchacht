@@ -15,6 +15,7 @@ Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzer
 ### Unsere Zielgruppe: 
 
 Unsere Zielgruppe sind Jugendliche, die in besonderem Maße mit Social Media in Kontakt stehen und daher eine der am meisten gefährdeten Gruppen für die Verbreitung von Fake News sind. Jugendliche nutzen Plattformen wie Instagram, TikTok und WhatsApp intensiv und konsumieren Informationen häufig direkt über diese Kanäle, was sie anfälliger für die Verbreitung von Falschinformationen macht. Zudem tragen sie oft unbeabsichtigt zur Verbreitung bei, da sie Inhalte, die sie spannend oder relevant finden, ungeprüft innerhalb ihrer Netzwerke teilen.
+
 Ein weiterer Grund, warum Jugendliche eine zentrale Zielgruppe darstellen, liegt darin, dass ihre Auseinandersetzung mit Fake News nicht nur unbewusstes Weiterleiten umfasst. Viele Jugendliche teilen Falschinformationen aktiv, diskutieren darüber und setzen sich oft kritisch mit den Inhalten auseinander. Diese Diskussionen bieten eine wertvolle Gelegenheit zur Sensibilisierung und zur Stärkung ihrer Medienkompetenz, um Desinformationen frühzeitig zu erkennen und fundiert bewerten zu können.
 
 **Quellen:**

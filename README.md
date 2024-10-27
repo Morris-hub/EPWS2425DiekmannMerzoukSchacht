@@ -21,17 +21,6 @@ Andererseits sind Fake News problematisch, weil sie durch die Verbreitung verzer
 - https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
 - https://dl.acm.org/doi/pdf/10.1145/3137597.3137600?casa_token=4bZhy8CDIi0AAAAA:L4hrDz5KPsa57yqUECWc6vDmW9vsTy_BODulfuKNmwe8OY0B2mMucbgKta_KUIi4-IQlevlWGRx6qw
 
-### Wie verbreiten sich Fake News und wie kann man sie Bekämpfen? 
-
-Fake News verbreiten sich vor allem über digitale Kanäle, in denen sie schnell und einfach ein breites Publikum erreichen können. Soziale Medien wie Facebook, Twitter und Instagram spielen hierbei eine zentrale Rolle: Über Likes, Shares und Kommentare verbreiten sich Falschinformationen oft ungeprüft weiter, vor allem wenn sie emotional aufgeladen sind. Auch Messenger-Dienste wie WhatsApp und Telegramm tragen erheblich zur Verbreitung bei, da Nachrichten hier häufig innerhalb privater Netzwerke und ohne Quellenprüfung weitergeleitet werden. Ein weiterer Verstärkungsfaktor sind die Algorithmen der sozialen Medien, die bevorzugt Inhalte mit hohen Interaktionsraten anzeigen. Da sensationelle oder schockierende Meldungen häufig starke Reaktionen hervorrufen, erreichen sie oft eine größere Reichweite als sachliche Nachrichten. Zudem gibt es spezielle Webseiten und Blogs, die sich auf die Verbreitung falscher oder verzerrter Informationen spezialisiert haben und durch Clickbait-Strategien gezielt Klicks und Aufmerksamkeit generieren. 
-Um die Verbreitung von Fake News einzudämmen, existieren Mehrere Möglichkeiten. Eine langfristig wirksame Strategie ist die Förderung von Medienkompetenz, um Nutzer zu einem kritischen Umgang mit Informationen und einer sorgfältigen Überprüfung von Quellen zu befähigen. Zudem gibt es Fakten-Check-Initiativen, die Falschmeldungen untersuchen und die korrigierten Informationen der Öffentlichkeit zugänglich machen. Bekannte Projekte wie Correctiv, Mimikama oder FactCheck.org bieten dabei aktuelle und fundierte Analysen. Soziale Medienunternehmen sind ebenfalls zunehmend gefordert, die Verbreitung von Fake News zu bekämpfen, indem sie potenziell problematische Inhalte kennzeichnen oder entfernen. Neben freiwilligen Maßnahmen der Plattformen werden auch staatliche Regulierungen diskutiert, die etwa Strafen für die vorsätzliche Verbreitung von Desinformation vorsehen.
-
-**Quellen:**
-- https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
-- https://web.stanford.edu/~gentzkow/research/fakenews.pdf
-- https://journals.sagepub.com/doi/full/10.1177/2056305120942879
-- https://link.springer.com/article/10.3758/s13428-023-02124-2
-
 ### Unsere Zielgruppe: 
 
 Unsere Zielgruppe sind Jugendliche, die in besonderem Maße mit Social Media in Kontakt stehen und daher eine der am meisten gefährdeten Gruppen für die Verbreitung von Fake News sind. Jugendliche nutzen Plattformen wie Instagram, TikTok und WhatsApp intensiv und konsumieren Informationen häufig direkt über diese Kanäle, was sie anfälliger für die Verbreitung von Falschinformationen macht. Zudem tragen sie oft unbeabsichtigt zur Verbreitung bei, da sie Inhalte, die sie spannend oder relevant finden, ungeprüft innerhalb ihrer Netzwerke teilen.

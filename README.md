@@ -38,7 +38,7 @@ Der entwickelte Prototyp bietet eine gute Grundlage für weitere Projekte, sowie
 
 Für die Entwicklung des interaktiven Systems verwendet wie die Game Engine Unity. Diese wurde aufgrund vorhandener Entwicklungserfahrung des Teams ausgewählt. Unity bietet zudem guten Support für einen LowPoly-Grafikstil, der für das Projekt angedacht ist. Ihre Universal Render Pipline ist simpel und leichtgewicht da sie nicht auf Raytracing basiert. Die gewählte Engine hat den Vorteil einer großen Community und umfangreicher Dokumentation, was die Entwicklung bzw. Problemlösung erleichtert. Die Engine unterstützt die 3D-Entwicklung und ermöglicht plattformübergreifende Projekte für mobile Geräte, Desktop, VR und Konsolen, was eine gewisse Flexibilität bietet für die Zukunftige weiterentwicklung des Spiels. Ein weiterer Vorteil ist der integrierte Asset Store, der viele fertige Assets bietet und somit Zeit und Kosten spart. Die Grafiken für das Spiel werden vom Unity Asset Store verwendet, da diese freiverfügbar sind. Dabei wird vorallem darauf geachtet, dass die Lizenz die Nutzung im Rahmen des Projektes wiederspiegelt. Zur weiteren Auswahl gehörten Unreal Enginge und Godot die wir mit Unity zum vergleichen gezogen haben. In der Folgenden Tabelle werden die Punkte veranschaulicht die wesentliche Auswirkung hatten für unseren Entschluss.  
 
-### Game Engine Vergleich
+## Game Engine Vergleich
 
 | **Kriterium**             | **Unity**                                   | **Unreal Engine**                         | **Godot**                               |
 |---------------------------|---------------------------------------------|-------------------------------------------|-----------------------------------------|

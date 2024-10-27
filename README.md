@@ -84,5 +84,14 @@ Artefakt   | Zeit   | Zeit   | Zeit
 
 ## Quellen & Ressourcen
 
-+ verwendete Quellen
+1. - https://www.bpb.de/kurz-knapp/lexika/das-junge-politik-lexikon/320271/fake-news/
+2. - https://www.lpb-bw.de/fake-news#c40355
+3. - https://www.pnas.org/doi/epdf/10.1073/pnas.1719005114
+4. - https://www.tandfonline.com/doi/full/10.1080/21670811.2017.1345645#d1e132
+5. - https://dl.acm.org/doi/pdf/10.1145/3137597.3137600?casa_token=4bZhy8CDIi0AAAAA:L4hrDz5KPsa57yqUECWc6vDmW9vsTy_BODulfuKNmwe8OY0B2mMucbgKta_KUIi4-IQlevlWGRx6qw
+6. - https://journals.sagepub.com/doi/full/10.1177/01634437231198447
+7. - https://journals.sagepub.com/doi/full/10.1177/2056305120942879
+8. - https://books.google.de/books?hl=de&lr=&id=LNGNDwAAQBAJ&oi=fnd&pg=PA42&dq=fake+news+and+teenagers&ots=tY9NjG0G7N&sig=bm_UHusgrPS6p1BDT0DZl2hhyNg#v=onepage&q=fake%20news%20and%20teenagers&f=false
+9. - https://www.scinexx.de/news/psychologie/generation-z-ist-anfaelliger-fuer-fake-news/
+     
 + Welche wir nutzen wollen

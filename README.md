@@ -4,7 +4,7 @@
 
 ### Was sind Fake News?
 
-Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „gefälscht“ und „News“ übersetzt „Nachrichten“ zusammen (1.). Zusammengesetzt also gefälschte Nachrichten welche speziell darauf ausgelegt sind wie eine echte Nachricht auszusehen (2.). Oft sind diese politisch Motiviert und dienen einem persönlichen Interesse oder einer kriminellen Absicht (2.). Sie generieren Aufmerksamkeit über reißerische Schlagzeilen, gefälschte Bilder und Behauptungen generiert (1.). 
+Der Begriff Fake News setzt sich aus den beiden teilen „Fake“ übersetzt „gefälscht“ und „News“ übersetzt „Nachrichten“ zusammen (1.). Zusammengesetzt also gefälschte Nachrichten welche speziell darauf ausgelegt sind wie eine echte Nachricht auszusehen. Oft sind diese politisch Motiviert und dienen einem persönlichen Interesse oder einer kriminellen Absicht (2.). Sie generieren Aufmerksamkeit über reißerische Schlagzeilen, gefälschte Bilder und Behauptungen generiert (1.). 
 
 ### Warum sind Fake News ein Problem? 
 
@@ -24,7 +24,7 @@ Im Rahmen des Entwicklungsprojektes soll ein interaktives System entwickelt werd
 
 Der Spielende wird in unterschiedliche Szenarien gesetzt, welche unterschiedliche Verbreitungsmechanismen von FakeNews darstellt. Ziel ist es, die FakeNews zu verstehen und nachzu vollziehen, wie sich diese verbreitet haben. Zum Ende des Szenarios soll zusammengefasst werden, welche Inhalte die FakeNews sind und wie sich diese verbreiten.
 
-Der Gameloop soll die Folgenden Elemente beinhalten:
+Der Gameloop soll die folgenden Elemente beinhalten:
 + Inhaltliche Erarbeitung des Szenarios
 + Verstehen der FakeNews-Mechanismen
 + Gegenwirkung durch Auflöung der FakeNews
@@ -52,26 +52,21 @@ Für die Entwicklung des interaktiven Systems verwendet wie die Game Engine Unit
 
 XXXXXXXX | Amin | Morris | Lukas
 -------- | -------- | -------- | --------
-Audit 1  | X  | X   | X
+**Audit 1**  | X  | X   | X
+Domänenmodel   | Zeit   | Zeit   | Zeit
+Stakeholderanalyse   | Zeit   | Zeit   | Zeit
+Erfordernisse&Anforderungen   | Zeit   | Zeit   | Zeit
+Probleme&Risiken   | Zeit   | Zeit   | Zeit
+Projektplan   | Zeit   | Zeit   | Zeit
+**Audit 2**  | X  | X   | X
+Probleme&Risiken   | Zeit   | Zeit   | Zeit
+PoC planen   | Zeit   | Zeit   | Zeit
 Artefakt   | Zeit   | Zeit   | Zeit
+**Audit 3** | X  | X   | X
 Artefakt   | Zeit   | Zeit   | Zeit
+**Audit 4**  | X  | X   | X
 Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Audit 2  | X  | X   | X
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Audit 3 | X  | X   | X
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Audit 4  | X  | X   | X
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
-Artefakt   | Zeit   | Zeit   | Zeit
+
 
 
 ## Quellen & Ressourcen
@@ -85,5 +80,3 @@ Artefakt   | Zeit   | Zeit   | Zeit
 7. - https://journals.sagepub.com/doi/full/10.1177/2056305120942879
 8. - https://books.google.de/books?hl=de&lr=&id=LNGNDwAAQBAJ&oi=fnd&pg=PA42&dq=fake+news+and+teenagers&ots=tY9NjG0G7N&sig=bm_UHusgrPS6p1BDT0DZl2hhyNg#v=onepage&q=fake%20news%20and%20teenagers&f=false
 9. - https://www.scinexx.de/news/psychologie/generation-z-ist-anfaelliger-fuer-fake-news/
-     
-+ Welche wir nutzen wollen

@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/morrisschacht/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.4/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/morrisschacht/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.36f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.36f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -435,8 +435,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Math/Vector3/DeprecatedVector3Add.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Ports/ControlOutput.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Graph/GetGraph.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Variables/Obsolete/SetSceneVariable.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Events/Physics2D/OnCollisionEnter2D.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Variables/Obsolete/SetSceneVariable.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Control/SelectOnEnum.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Math/Generic/DeprecatedGenericAdd.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Framework/Events/Physics2D/OnTriggerStay2D.cs" />
@@ -821,19 +821,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">

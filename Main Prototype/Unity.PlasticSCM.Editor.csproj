@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/morrisschacht/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.4/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/morrisschacht/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.36f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.36f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -341,9 +341,9 @@
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/UI/FindEditorWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/UI/DrawUserIcon.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/Configuration/WriteLogConfiguration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/Views/Branch/Dialogs/CreateBranchDialog.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/UI/Tree/TreeViewItemIds.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportListHeaderState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/Views/Branch/Dialogs/CreateBranchDialog.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/Views/PendingChanges/ChangelistTreeViewItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/UI/UnityThreadWaiter.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.5.2/Editor/PlasticSCM/UI/PlasticSplitterGUILayout.cs" />

@@ -258,8 +258,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Meta/CastMetadata.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Plugins/PluginModuleDependencyAttribute.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/IndividualEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Canvases/IGraphContextExtension.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Plugin/Acknowledgements/Acknowledgement_SQLite.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Canvases/IGraphContextExtension.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/GraphEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/Unity/Ray2DInspector.cs" />
@@ -384,8 +384,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs/Changelog_1_4_2.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Utilities/Clipboard.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Interface/Colors/ColorPalette.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/InspectorBlock.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Utilities/MathfEx.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/InspectorBlock.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Widgets/GraphElementWidget.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Windows/ICanvasWindow.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Context/GraphClipboard.cs" />
@@ -417,8 +417,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/Unity/LayerMaskInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Interface/Colors/SkinnedColor.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Interface/Licenses/License.Iconmonstr.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/Primitives/LongInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Description/GraphItemDescriptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Inspection/Primitives/LongInspector.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Utilities/LudiqEditorUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Interface/TextureResolution.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/BoltGUI.cs" />

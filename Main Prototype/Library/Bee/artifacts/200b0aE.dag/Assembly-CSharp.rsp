@@ -365,7 +365,9 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.36f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs"
 "Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs"
+"Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/NPC.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

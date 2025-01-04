@@ -5,12 +5,16 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
     public Transform player;  // Referenz auf den Spieler
-    public float detectionRange = 10f;  // Reichweite in der der NPC den Spieler bemerkt
+    public float detectionRange = 10f;  // Reichweite, in der der NPC den Spieler bemerkt
 
     public Material idleMaterial;  // Material, wenn der NPC nichts macht
-    public Material playerInReachMaterial; // Material wenn der Spiele in der Reichweite vom NPC ist
-    private Renderer npcRenderer; // Referenz auf den Renderer des NPC's
-    private bool playerInRange = false; // Ist der Spieler in Reicheweite
+    public Material activeMaterial; // Material, wenn der Spieler in der Reichweite vom NPC ist
+    public Material interactionMaterial; // Material, wenn der Spieler interagiert
+
+    public char npcLetter;  // Buchstabe, den der NPC repräsentiert (für die Reihenfolge)
+
+    private Renderer npcRenderer; // Referenz auf den Renderer des NPCs
+    private bool playerInRange = false; // Ist der Spieler in Reichweite
 
     void Start()
     {
@@ -22,7 +26,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        // Abstand zwischen Gegner und dem Spieler
+        // Abstand zwischen NPC und dem Spieler
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         // Wenn der Spieler innerhalb der Reichweite ist
@@ -31,13 +35,14 @@ public class NPC : MonoBehaviour
             if (!playerInRange)
             {
                 playerInRange = true;
-                npcRenderer.material = playerInReachMaterial;  // Ändere das Material auf das Verfolgungsmaterial
-            }
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("Der Spieler hat den NPC angesprochen");
+                npcRenderer.material = activeMaterial;  // Ändere das Material
             }
 
+            // Spieler drückt die Interaktionstaste
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Interact();
+            }
         }
         else
         {
@@ -45,8 +50,28 @@ public class NPC : MonoBehaviour
             if (playerInRange)
             {
                 playerInRange = false;
-                npcRenderer.material = idleMaterial;  // Ändere das Material auf das ursprüngliche Material
+                npcRenderer.material = idleMaterial;  // Ändere das Material auf idle
             }
+        }
+    }
+
+    void Interact()
+    {
+        // Überprüfen, ob dieser NPC in der Reihenfolge der nächste ist
+        if (GameManager.Instance.IsNext(npcLetter))
+        {
+            npcRenderer.material = interactionMaterial;  // Material für erfolgreiche Interaktion
+            Debug.Log($"NPC {npcLetter}: Richtige Reihenfolge! Fortschritt gespeichert.");
+        }
+        else
+        {
+            Debug.Log($"NPC {npcLetter}: Falsche Reihenfolge. Versuche es erneut.");
+        }
+
+        // Überprüfen, ob die Reihenfolge komplett ist
+        if (GameManager.Instance.IsComplete())
+        {
+            Debug.Log("Reihenfolge abgeschlossen. Du hast alle NPCs in der richtigen Reihenfolge angesprochen!");
         }
     }
 }

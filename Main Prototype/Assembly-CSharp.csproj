@@ -69,6 +69,7 @@
     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs" />
     <Compile Include="Assets/Scripts/Movement.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>

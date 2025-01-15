@@ -1,0 +1,38 @@
+.header {
+    font-size: 60px;
+    color: rgb(125, 165, 96);
+    -unity-font: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    -unity-font-style: bold;
+    -unity-background-image-tint-color: rgb(125, 165, 96);
+    background-color: rgba(103, 135, 79, 0);
+    -unity-text-outline-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+}
+
+.button {
+    font-size: 20px;
+    -unity-font-style: bold;
+    width: 220px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-self: flex-start;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    -unity-background-image-tint-color: rgb(69, 91, 53);
+    background-color: rgb(125, 165, 96);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=e5d85eaca852c4283ac90f4bfec596b0&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; margin-top: 50px; margin-right: 50px; margin-bottom: 50px; margin-left: 50px; background-image: url(&quot;project://database/Assets/Images/347a85657ed84a8585acd996299d032a.jpeg?fileID=21300000&amp;guid=82e1b9578b2b6438b80b636e8d77c36a&amp;type=3#347a85657ed84a8585acd996299d032a&quot;);">
+        <ui:Label tabindex="-1" text="Hauptmenü" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="-unity-text-align: middle-left; white-space: nowrap;" />
+        <ui:Button text="Level 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="level1" class="button" />
+        <ui:Button text="Level2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="level2" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

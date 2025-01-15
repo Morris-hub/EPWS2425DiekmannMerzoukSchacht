@@ -367,6 +367,7 @@
 "Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NPC.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

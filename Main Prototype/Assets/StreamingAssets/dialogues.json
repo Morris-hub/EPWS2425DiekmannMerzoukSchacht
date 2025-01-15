@@ -1,0 +1,30 @@
+{
+    "npcDialogues": [
+      {
+        "letter": "A",
+        "dialogues": ["Dich habe ich ja noch nie hier getroffen, herzlich willkommen in unserem kleinen Dorf. Ich bin mir sicher du hattest eine anstrengende Reise, wieso gönnst du dir nicht etwas in unserer Taverne.!", 
+        "Wie ich sehe warst du schon in unserer Taverne und wurdest anständig willkommen geheißen. Nun lass uns weiter unseren grandiosen König und seine gute Tat feiern.", 
+        "Du scheinst dich super mit den anderen zu verstehen, ich hoffe unser kleines Dorf gefällt dir und alle sind freundlich. Ein Einheimisches Volk, das sagt mir nichts aber viel Wichtiger ist doch das niemand mehr hungern muss.",
+        "Was wurde dir erzählt?! Ich hatte ihm doch gesagt er soll das bitte für sich behalten, heute kann man ja niemandem mehr trauen. Ich kann dir "]
+      },
+      {
+        "letter": "B",
+        "dialogues": ["Hallo du junger Hüpfer, du siehst ja interessant aus. In deinem alter habe ich eine einfache Kluft getragen, aber das liegt schon etwas zurück. Wenn du an Geschichten aus alten Tagen interessiert bist, dann erzähl ich dir später gern etwas",
+         "Du willst mehr zur aktuellen Lage hören? Ich bin ehrlich gesagt selbst überrascht, denn soweit ich weiß, soll der König einen sehr alten Walt für die Felder gerodet haben. In diesem soll ein Altes einheimisches Folk leben. Ich war früher einmal in der Nähe dieses Waldes und hab gehört das dieses Folk, außenstehenden nicht gut gesinnt ist. Aber das ist schon länger her. Beeindruckend wie der König das geschafft hat. Vielleicht waren vor kurzem Abenteurer zu Besuch welche mehr über die aktuelle Situation wissen.",
+         "Damals war vieles anders, manches besser und manches schlechter. Nun geht es glaub ich wieder aufwärts. Ups, Entschuldigung, da bin ich wohl in Gedanken versunken.",
+         "Die ganze Rederei hat mich müde gemacht, ich fall gleich um vor Hunger. Unsere Taverne hat zwar gutes Essen, aber nichts schlägt den Eintopf meiner Frau."]
+      },
+      {
+        "letter": "C",
+        "dialogues": ["Hallo Reisender und willkommen in meiner Taverne. Du hast dir die perfekte Zeit ausgesucht, um unser kleines Dörflein zu besuchen. Aktuell feiern wir den König der erst vor kurzem eine Hungersnot abzuwenden, indem er neue Felder gebaut hat. Das Ganze soll er sogar auf eigene Kosten und mit seiner Ritterkompanie getan haben, er ist wahrhaftig ein guter König. Kann man dir, Abseits von dem Ganzen, etwas zu Essen ein Krug meiner besten Getränke anbieten? Falls du mehr wissen möchtest, frag am besten jemanden der schon, was länger am Leben ist als ich.",
+         "Möchtest du nun doch etwas trinken oder genießt du so sehr meine Anwesenheit. ich bin mir sicher mit dem Alten Steve kann man sich besser unterhalten",
+        "Abenteurer? Ja da hatte ich vor kurzem ein paar da welche sich über ein „Waldvolk“ unterhalten haben. Sie meinten das ich mich, falls ich irgendwann mal in der nähe befinde auf mich aufpassen soll. Anscheinend sind sie dem König nicht gut gesinnt da dieser die Natur vor Ort nicht allzu sehr respektiert. Ob es der Wahrheit entspricht, weiß ich nicht genau aber sie haben froh und offen von ihren Abenteuern erzählt. Mehr kann ich dir aber nicht erzählen, sonst bekomme ich noch Probleme mit dem Dorf.",
+    "Tut mir leid, mehr kann ich dir wirklich nicht erzählen. Falls du etwas trinken oder essen möchtest komm einfach zu mir. Aber bitte keine Fragen mehr."
+]
+      },
+      {
+        "letter": "D",
+        "dialogues": ["Danke, dass du mich besucht hast!", "Mach's gut!"]
+      }
+    ]
+  }

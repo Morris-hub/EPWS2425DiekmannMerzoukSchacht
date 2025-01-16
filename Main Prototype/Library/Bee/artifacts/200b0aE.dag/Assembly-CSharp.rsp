@@ -368,6 +368,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/DialogueCollection.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameSaver.cs"
 "Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NPC.cs"

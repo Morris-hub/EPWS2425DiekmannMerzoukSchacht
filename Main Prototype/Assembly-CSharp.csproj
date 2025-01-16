@@ -72,6 +72,7 @@
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
     <Compile Include="Assets/Scripts/MainMenuScript.cs" />
+    <Compile Include="Assets/Scripts/GameSaver.cs" />
     <Compile Include="Assets/Scripts/DialogueCollection.cs" />
   </ItemGroup>
   <ItemGroup>

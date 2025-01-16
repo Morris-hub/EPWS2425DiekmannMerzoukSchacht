@@ -1088,6 +1088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517186600}
   - component: {fileID: 1517186601}
+  - component: {fileID: 1517186602}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1122,7 +1123,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5b668a5fdf94c19bccb24220958623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetWord: ACCD
+  targetWord: ABCACBABCBCAA
+--- !u!114 &1517186602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517186599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108a491aa8d9f4c2780a4f987ecabbf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1639211105}
 --- !u!1 &1639211100
 GameObject:
   m_ObjectHideFlags: 0

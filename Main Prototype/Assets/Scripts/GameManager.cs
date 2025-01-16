@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public string targetWord = "ABCDA"; // Vorgabe für die Reihenfolge
+    public string targetWord = ""; // Vorgabe für die Reihenfolge
     private int currentIndex = 0; // Fortschritt im Wort
 
     private Dictionary<char, List<string>> npcDialogues; // Buchstabe -> Dialoge
@@ -28,9 +28,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Lädt die Dialogdaten aus der JSON-Datei.
-    /// </summary>
     private void LoadDialogueData()
     {
         string path = Path.Combine(Application.streamingAssetsPath, "dialogues.json");
@@ -57,9 +55,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Gibt den nächsten Dialog für den aktuellen NPC zurück.
-    /// </summary>
     public string GetNextDialogue(char npcLetter)
     {
         // Prüfe, ob der NPC in der Reihenfolge korrekt ist
@@ -94,12 +90,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Überprüft, ob die Dialogreihenfolge abgeschlossen ist.
-    /// </summary>
     public bool IsComplete()
     {
         return currentIndex >= targetWord.Length;
+    }
+
+     // Öffentliche Methode, um den aktuellen Index zurückzugeben
+    public int GetCurrentIndex()
+    {
+        return currentIndex;
     }
 }
 
@@ -126,9 +126,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Lädt die Dialogdaten aus der JSON-Datei.
-    /// </summary>
     private void LoadDialogueData()
     {
         string path = Path.Combine(Application.streamingAssetsPath, "dialogues.json");
@@ -154,9 +152,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Gibt den nächsten Dialog für den aktuellen NPC zurück.
-    /// </summary>
     public string GetNextDialogue(char npcLetter)
     {
         if (currentIndex < targetWord.Length && targetWord[currentIndex] == npcLetter)
@@ -186,9 +182,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Überprüft, ob die Dialogreihenfolge abgeschlossen ist.
-    /// </summary>
     public bool IsComplete()
     {
         return currentIndex >= targetWord.Length;

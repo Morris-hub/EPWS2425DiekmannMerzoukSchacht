@@ -1089,6 +1089,7 @@ GameObject:
   - component: {fileID: 1517186600}
   - component: {fileID: 1517186601}
   - component: {fileID: 1517186602}
+  - component: {fileID: 1517186603}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1137,6 +1138,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1639211105}
+--- !u!114 &1517186603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517186599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5c8748736dc46f788850ee5670f677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1639211100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b14fc3a8eae354f949dcfb5220cfa6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 10
   turnSpeed: 720
   player: {fileID: 0}
   sidestepDistance: 1

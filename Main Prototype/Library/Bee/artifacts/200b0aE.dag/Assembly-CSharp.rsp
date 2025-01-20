@@ -371,6 +371,7 @@
 "Assets/Scripts/GameSaver.cs"
 "Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/Notebook.cs"
 "Assets/Scripts/NPC.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

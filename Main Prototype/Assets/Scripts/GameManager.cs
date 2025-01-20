@@ -6,10 +6,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public string targetWord = ""; // Vorgabe für die Reihenfolge
+    public string targetWord = "ABCACBABCBCAA"; // Vorgabe für die Reihenfolge
     private int currentIndex = 0; // Fortschritt im Wort
 
-    private Dictionary<char, List<string>> npcDialogues; // Buchstabe -> Dialoge
+    private Dictionary<char, List<string>> npcDialogues; // Buchstabe, Dialoge
     private Dictionary<char, int> npcDialogueIndex; // Fortschritt für jeden NPC
 
     private void Awake()
@@ -101,6 +101,16 @@ public class GameManager : MonoBehaviour
     {
         return currentIndex;
     }
+
+     public Dictionary<char, List<string>> GetNpcDialogues()
+    {
+        return npcDialogues;
+    }
+
+    public string GetTargetWord()
+    {
+        return targetWord;
+    }   
 }
 
 

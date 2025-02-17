@@ -373,6 +373,9 @@
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/Notebook.cs"
 "Assets/Scripts/NPC.cs"
+"Assets/TextMesh/DialogBoxTest.cs"
+"Assets/TextMesh/Dialogue.cs"
+"Assets/TextMesh/DialogUI.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

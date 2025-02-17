@@ -398,6 +398,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1639211105}
   offset: {x: 0, y: 0, z: 0}
+  sensitivity: 2
+  minY: -40
+  maxY: 80
 --- !u!1 &391948845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,6 +1141,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1639211105}
+  npc_A: {fileID: 288735395}
+  npc_B: {fileID: 633032748}
+  npc_C: {fileID: 391948846}
+  npc_D: {fileID: 1008344312}
 --- !u!114 &1517186603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,8 +1283,8 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
+  - {fileID: 330585546}
   - {fileID: 832575519}
   - {fileID: 726860343}
   - {fileID: 1639211105}

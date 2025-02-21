@@ -1,3 +1,4 @@
+
 using System.IO;
 using UnityEngine;
 
@@ -5,11 +6,11 @@ using UnityEngine;
 public class GameState
 {
     public int currentIndex;        // Fortschritt im Wort
-    public Vector3 playerPosition; // Koordinaten des Spielers
-    public Vector3 npcAPosition; // Koordinaten des Spielers
-    public Vector3 npcBPosition; // Koordinaten des Spielers
-    public Vector3 npcCPosition; // Koordinaten des Spielers
-    public Vector3 npcDPosition; // Koordinaten des Spielers
+    public Vector3 playerPosition;  // Koordinaten des Spielers
+    public Vector3 npcAPosition;
+    public Vector3 npcBPosition;
+    public Vector3 npcCPosition;
+    public Vector3 npcDPosition;
 }
 
 public class GameSaver : MonoBehaviour
@@ -20,6 +21,15 @@ public class GameSaver : MonoBehaviour
     [SerializeField] private Transform npc_B;
     [SerializeField] private Transform npc_C;
     [SerializeField] private Transform npc_D;
+
+    private void Update()
+    {
+        // Speichern wenn I Taste gedrückt wird
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            SaveGame();
+        }
+    }
 
     public void SaveGame()
     {
@@ -37,7 +47,7 @@ public class GameSaver : MonoBehaviour
 
         int currentIndex = GameManager.Instance.GetCurrentIndex(); // Index aus GameManager abrufen
 
-        GameState state = new GameState // Spielstand speichern
+        GameState state = new GameState
         {
             currentIndex = currentIndex,
             playerPosition = player.position,
@@ -47,19 +57,12 @@ public class GameSaver : MonoBehaviour
             npcDPosition = npc_D.position,
         };
 
-        string json = JsonUtility.ToJson(state, true); // JSON-String aus Objet erstellen
+        string json = JsonUtility.ToJson(state, true);
 
-        // Pfad zum Assets-Ordners
-        string path = Path.Combine(Application.dataPath, fileName);
+        string path = Path.Combine(Application.persistentDataPath, fileName); // Besserer Speicherort für Daten
 
         File.WriteAllText(path, json);
 
-        Debug.Log($"Spielstand gespeichert unter: {path}"); 
-    }
-
-    private void Start()
-    {
-        // Aufrufen beim aktivieren des Spiels
-        SaveGame();
+        Debug.Log($"Spielstand gespeichert unter: {path}");
     }
 }

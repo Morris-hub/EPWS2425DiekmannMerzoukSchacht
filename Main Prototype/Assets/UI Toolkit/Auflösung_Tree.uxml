@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Aufl%C3%B6sungStyle.uss?fileID=7433441132597879392&amp;guid=098f1912a63eeec44816f7f10596874c&amp;type=3#AuflösungStyle" />
+    <ui:VisualElement name="Hauptcontainer" style="flex-grow: 1; align-items: flex-start; align-self: flex-end; justify-content: space-between; flex-direction: row; background-image: url(&quot;project://database/Assets/Images/Auflosung_UI.png?fileID=2800000&amp;guid=f3301bd2b4347804b87d45adbdaada21&amp;type=3#Auflosung_UI&quot;); -unity-slice-scale: 1px; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; flex-basis: auto; position: relative; left: auto; margin-top: 0; padding-top: 100px; padding-right: 200px; padding-bottom: 100px; padding-left: 350px;">
+        <ui:VisualElement name="Links" style="flex-grow: 1; width: 1px; max-width: none;">
+            <ui:Label tabindex="-1" text="Verdächtige" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+            <ui:VisualElement name="Verdaechtige" style="flex-grow: 1; flex-direction: column; align-items: stretch; align-self: flex-start;">
+                <ui:VisualElement name="Verdaechtiger" class="suspects" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="Bild" class="pic" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Gecko.Png?fileID=2800000&amp;guid=3d313e038d4a21a4dbbb030ec99a5256&amp;type=3#Gecko&quot;);" />
+                    <ui:Label tabindex="-1" text="Ältester Steve" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Toggle label="Ja oder Nein" name="sustoggle1" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Verdaechtiger" class="suspects" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="Bild" class="pic" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Snake.png?fileID=2800000&amp;guid=346352a46b3b6b24c9dd320ba33b346a&amp;type=3#Snake&quot;);" />
+                    <ui:Label tabindex="-1" text="Bürgermeister Alberto" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Toggle label="Ja oder Nein" name="sustoggle2" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Verdaechtiger" class="suspects" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="Bild" class="pic" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Squid.png?fileID=2800000&amp;guid=56e86619ac2480140b28a609d68d8ff3&amp;type=3#Squid&quot;);" />
+                    <ui:Label tabindex="-1" text="Wirt Kartsen" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Toggle label="Ja oder Nein" name="sustoggle3" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Verdaechtiger" class="suspects" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="Bild" class="pic" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Frog.png?fileID=2800000&amp;guid=22920689a9ab9bb4bb32d7b3b8444575&amp;type=3#Frog&quot;);" />
+                    <ui:Label tabindex="-1" text="Quibbert Greenwise" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                    <ui:Toggle label="Ja oder Nein" name="sustoggle4" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Rechts" style="flex-grow: 1; width: 4px; align-items: flex-start;">
+            <ui:Label tabindex="-1" text="Falldetails" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+            <ui:VisualElement name="Aussagen" style="flex-grow: 1; max-height: 500px;">
+                <ui:Label tabindex="-1" text="Aussagen" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:VisualElement name="Aussage" style="flex-grow: 1; height: 200px; max-height: 200px;">
+                    <ui:Toggle label="Der alte Steve erfindet Geschichten aus seiner Vergangenheit" name="statementtoggle2" />
+                    <ui:Toggle label="Der Tavernenbesitzer ist transparent und gibt ein komplettes bild" name="statementtoggle3" />
+                    <ui:Toggle label="Der verdächtige zensiert Inhalte und erzählt nur positives über den König" name="statementtoggle4" />
+                    <ui:Toggle label="Der Bürgermeister zeigt auch die schlechten Seiten des Königs auf" name="statementtoggle5" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Ermittlung Beenden" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resultbutton" style="width: 200px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,3 +1,4 @@
+// GameManager.cs
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             npcDialogues = new Dictionary<char, List<string>>();
             npcDialogueIndex = new Dictionary<char, int>(); // Initialize
-            LoadDialogueData(); // Lade die Dialoge beim Start
+            LoadDialogueData(); // Lade die Dialoge aus der JSON-Datei
         }
         else
         {
@@ -56,7 +57,7 @@ public class GameManager : MonoBehaviour
     }
 
     /// Gibt den nächsten Dialog für den aktuellen NPC zurück.
-    public string GetNextDialogue(char npcLetter)
+    public string GetNextDialogue(char npcLetter, string npcName, string notInTurnMessage)
     {
         // Prüfe, ob der NPC in der Reihenfolge korrekt ist
         if (currentIndex < targetWord.Length && targetWord[currentIndex] == npcLetter)
@@ -69,7 +70,7 @@ public class GameManager : MonoBehaviour
                 // Prüfe, ob es noch einen Dialog gibt
                 if (npcDialogueIndex[npcLetter] < dialogues.Count)
                 {
-                    string dialogue = dialogues[npcDialogueIndex[npcLetter]];
+                    string dialogue = npcName + ": " + dialogues[npcDialogueIndex[npcLetter]];
                     npcDialogueIndex[npcLetter]++; // Fortschritt für diesen NPC
                     currentIndex++; // Fortschritt im Wort
                     return dialogue;
@@ -86,7 +87,8 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            return $"NPC {npcLetter} ist nicht der nächste in der Reihenfolge.";
+            // Rückgabe des individuellen Satzes, wenn der NPC nicht an der Reihe ist
+            return notInTurnMessage;
         }
     }
 
@@ -96,13 +98,13 @@ public class GameManager : MonoBehaviour
         return currentIndex >= targetWord.Length;
     }
 
-     // Öffentliche Methode, um den aktuellen Index zurückzugeben
+    // Öffentliche Methode, um den aktuellen Index zurückzugeben
     public int GetCurrentIndex()
     {
         return currentIndex;
     }
 
-     public Dictionary<char, List<string>> GetNpcDialogues()
+    public Dictionary<char, List<string>> GetNpcDialogues()
     {
         return npcDialogues;
     }
@@ -110,6 +112,5 @@ public class GameManager : MonoBehaviour
     public string GetTargetWord()
     {
         return targetWord;
-    }   
+    }
 }
-

@@ -1,67 +1,103 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Notebook : MonoBehaviour
 {
-    public void DisplayEntries()
-{
-    if (GameManager.Instance == null)
+    [SerializeField] private NotebookUI notebookUI;
+
+    private void Start()
     {
-        Debug.LogError("GameManager-Instance nicht gefunden!");
-        return;
+        // Finde NotebookUI, falls nicht zugewiesen
+        if (notebookUI == null)
+        {
+            notebookUI = FindObjectOfType<NotebookUI>();
+            if (notebookUI == null)
+            {
+                Debug.LogError("NotebookUI nicht gefunden!");
+            }
+        }
     }
 
-    string targetWord = GameManager.Instance.GetTargetWord();
-    int currentIndex = GameManager.Instance.GetCurrentIndex();
-    Dictionary<char, List<string>> npcDialogues = GameManager.Instance.GetNpcDialogues();
-
-    Debug.Log("Notizbuch:");
-    Debug.Log($"Aktueller Fortschritt: {currentIndex}/{targetWord.Length}");
-    Debug.Log($"TargetWord: {targetWord}");
-
-    // Gehe die Buchstaben im TargetWord durch bis zum currentIndex
-    Dictionary<char, int> npcDialoguePosition = new Dictionary<char, int>();
-
-    for (int i = 0; i < currentIndex; i++)
+    // Sammelt Dialogeinträge und übergibt sie an die UI
+    public List<string> GetNotebookEntries()
     {
-        char npcLetter = targetWord[i]; // Buchstabe des NPCs an dieser Position
-
-        // Prüfen, ob der NPC Dialoge hat
-        if (npcDialogues.TryGetValue(npcLetter, out var dialogues))
+        if (GameManager.Instance == null)
         {
-            // Initialisiere die Position für den NPC, falls noch nicht vorhanden
-            if (!npcDialoguePosition.ContainsKey(npcLetter))
-            {
-                npcDialoguePosition[npcLetter] = 0;
-            }
+            Debug.LogError("GameManager-Instance nicht gefunden!");
+            return new List<string>();
+        }
 
-            int dialogueIndex = npcDialoguePosition[npcLetter]; // Hole den Fortschritt dieses NPCs
+        List<string> entries = new List<string>();
+        string targetWord = GameManager.Instance.GetTargetWord();
+        int currentIndex = GameManager.Instance.GetCurrentIndex();
+        Dictionary<char, List<string>> npcDialogues = GameManager.Instance.GetNpcDialogues();
 
-            // Prüfen, ob ein Dialog für den Fortschritt existiert
-            if (dialogueIndex < dialogues.Count)
+        // Tracking-Dictionary für NPC-Dialog-Positionen
+        Dictionary<char, int> npcDialoguePosition = new Dictionary<char, int>();
+
+        for (int i = 0; i < currentIndex; i++)
+        {
+            char npcLetter = targetWord[i];
+
+            if (npcDialogues.TryGetValue(npcLetter, out var dialogues))
             {
-                Debug.Log($"NPC {npcLetter}: {dialogues[dialogueIndex]}");
-                npcDialoguePosition[npcLetter]++; // Fortschritt dieses NPCs erhöhen
+                // Initialisiere die Position für den NPC
+                if (!npcDialoguePosition.ContainsKey(npcLetter))
+                {
+                    npcDialoguePosition[npcLetter] = 0;
+                }
+
+                int dialogueIndex = npcDialoguePosition[npcLetter];
+
+                // Suche nach dem NPC anhand des Buchstabens
+                NPC npc = FindNPCByLetter(npcLetter);
+                string npcName = npc != null ? npc.npcName : $"NPC {npcLetter}";  // Fallback auf Buchstaben, falls NPC nicht gefunden wird
+
+                if (dialogueIndex < dialogues.Count)
+                {
+                    entries.Add($"{npcName}: {dialogues[dialogueIndex]}");
+                    npcDialoguePosition[npcLetter]++;
+                }
+                else
+                {
+                    entries.Add($"{npcName}: Kein weiterer Dialog verfügbar.");
+                }
             }
             else
             {
-                Debug.Log($"NPC {npcLetter}: Kein weiterer Dialog verfügbar.");
+                entries.Add($"NPC {npcLetter}: Keine Dialoge gefunden.");
             }
         }
-        else
-        {
-            Debug.Log($"NPC {npcLetter}: Keine Dialoge gefunden.");
-        }
-    }
-}
 
+        return entries;
+    }
+
+    // Methode, um NPC anhand des Buchstabens zu finden
+    private NPC FindNPCByLetter(char letter)
+    {
+        NPC[] npcs = FindObjectsOfType<NPC>();
+        foreach (NPC npc in npcs)
+        {
+            if (npc.npcLetter == letter)
+            {
+                return npc;
+            }
+        }
+        return null; // Falls kein NPC gefunden wurde
+    }
 
     private void Update()
     {
-        // Zeigt das Notizbuch, wenn die Taste Q gedrückt wird
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            DisplayEntries();
+            if (notebookUI != null)
+            {
+                notebookUI.ToggleNotebook();
+            }
+            else
+            {
+                Debug.LogError("NotebookUI ist nicht zugewiesen!");
+            }
         }
     }
 }

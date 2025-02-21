@@ -8,20 +8,22 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
-    public float textSpeed = 0.05f;
+    public float textSpeed = 0.001f;
     private int index;
-    
+
     public UnityEvent onDialogueEnd;  // Event wenn Dialog endet
 
-    void Start()
+  void Start()
+{
+    if (textComponent == null)
     {
-        if (textComponent == null)
-        {
-            Debug.LogError("TextComponent nicht zugewiesen!");
-            return;
-        }
-        textComponent.text = string.Empty;
+        Debug.LogError("TextComponent nicht zugewiesen!");
+        return;
     }
+    textComponent.text = string.Empty;
+    gameObject.SetActive(false); // Dialogbox ist am Anfang unsichtbar
+}
+
 
     public void StartDialogue()
     {
@@ -46,7 +48,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
             {

@@ -1,4 +1,3 @@
-// NPC.cs
 using UnityEngine;
 
 public class NPC : MonoBehaviour
@@ -9,6 +8,10 @@ public class NPC : MonoBehaviour
     public Material activeMaterial;
     public Material interactionMaterial;
     public char npcLetter;
+    public string npcName;
+
+    [TextArea]
+    public string notInTurnMessage = "Ich bin nicht an der Reihe."; // Individueller Satz
 
     private Renderer npcRenderer;
     private bool playerInRange = false;
@@ -20,8 +23,12 @@ public class NPC : MonoBehaviour
         npcRenderer = GetComponent<Renderer>();
         npcRenderer.material = idleMaterial;
         dialogueSystem = FindObjectOfType<Dialogue>();
-        
-        // Registriere für das Dialog-Ende-Event
+
+        if (string.IsNullOrEmpty(npcName))
+        {
+            npcName = "NPC " + npcLetter;
+        }
+
         if (dialogueSystem != null)
         {
             dialogueSystem.onDialogueEnd.AddListener(OnDialogueEnded);
@@ -38,13 +45,11 @@ public class NPC : MonoBehaviour
     {
         if (!isInDialogue && dialogueSystem != null)
         {
-            string dialogMessage = GameManager.Instance.GetNextDialogue(npcLetter);
-            
+            string dialogMessage = GameManager.Instance.GetNextDialogue(npcLetter, npcName, notInTurnMessage);
             isInDialogue = true;
             npcRenderer.material = interactionMaterial;
             dialogueSystem.lines = new string[] { dialogMessage };
             dialogueSystem.StartDialogue();
-            
             Debug.Log($"Dialog Message: {dialogMessage}");
         }
     }
@@ -78,7 +83,6 @@ public class NPC : MonoBehaviour
 
     void OnDestroy()
     {
-        // Entferne Event Listener wenn das Objekt zerstört wird
         if (dialogueSystem != null)
         {
             dialogueSystem.onDialogueEnd.RemoveListener(OnDialogueEnded);

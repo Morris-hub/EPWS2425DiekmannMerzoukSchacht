@@ -138,8 +138,8 @@
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Manipulators/Sequence/TrackZoom.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Animation/BindingSelector.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Window/TimelineNavigator.cs" />
-    <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/treeview/Drawers/AnimationTrackDrawer.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Utilities/DisplayNameHelper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/treeview/Drawers/AnimationTrackDrawer.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Utilities/ObjectReferenceField.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Actions/TrackActions.cs" />
     <Compile Include="Library/PackageCache/com.unity.timeline@1.7.6/Editor/Window/TimelineWindow_TrackGui.cs" />

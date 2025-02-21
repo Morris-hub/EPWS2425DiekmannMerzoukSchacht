@@ -1,0 +1,24 @@
+.header {
+    font-size: 30px;
+}
+
+.suspects {
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+    max-height: none;
+}
+
+.pic {
+    width: 80px;
+    height: 200px;
+    max-width: 90px;
+    max-height: 120px;
+    min-width: 0;
+    min-height: 0;
+}
+
+.onclick {
+}
